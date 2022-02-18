@@ -36,5 +36,13 @@ public class Main {
         divide = c/d;
 
         System.out.println("Question 4: " + divide);
+//      Question 5
+        double q = 17.9543;
+        double r = 82.43;
+        double quotient;
+
+        quotient = r/q;
+
+        System.out.println("Question 5: " + quotient);
     }
 }
