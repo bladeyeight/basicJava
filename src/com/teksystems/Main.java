@@ -5,6 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
@@ -146,17 +148,25 @@ public class Main {
 //            }
 //        }
 
-        ArrayList<String> list = new ArrayList<String>();
+//        ArrayList<String> list = new ArrayList<String>();
+//
+//        list.add("hello");
+//        list.add("world");
+//        list.add("again");
+//
+//
+//        System.out.println(list);
+//        list.remove(2);
+//        list.set(1, list.get(1).toUpperCase());
+//        System.out.println(list);
 
-        list.add("hello");
-        list.add("world");
-        list.add("again");
+        Map<Integer, String> myMap = new HashMap<Integer, String>();
+        myMap.put(101, "Java");
+        myMap.put(102, "CSS");
+        myMap.put(103, "HTML");
+        myMap.put(104, "Spring Boot");
 
-
-        System.out.println(list);
-        list.remove(2);
-        list.set(1, list.get(1).toUpperCase());
-        System.out.println(list);
+        System.out.println(myMap);
 
 
 
