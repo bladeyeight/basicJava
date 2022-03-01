@@ -1,10 +1,10 @@
 package com.teksystems;
 
-import models.Car;
-import models.Vehicle;
-
-import java.util.Arrays;
-import java.util.Random;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -110,13 +110,53 @@ public class Main {
 //        }
 //        System.out.println(Arrays.toString(myArr));
 //        System.out.println(myArr.length);
-        Scanner input = new Scanner(System.in);
-        Vehicle v1 = new Vehicle("123", 4, "blue");
-        v1.color = "blue";
-        v1.doors = 4;
-        v1. vin = "ABC12344";
+//        Scanner input = new Scanner(System.in);
+//        Vehicle v1 = new Vehicle("123", 4, "blue");
+//        v1.color = "blue";
+//        v1.doors = 4;
+//        v1. vin = "ABC12344";
+
+//        String fullName = "samuel, j, perry";
+//        String [] name = fullName.split(",");
+//        for (int i = 0; i < name.length; i++){
+//            System.out.printf("Index: %d value: %s\n", i, name[i]);
+//        }
+
+//        File file = new File("coursesInfo.txt");
+//
+//        try {
+//            fileWrite.createNewFile();
+//        } catch (IOException e){
+//            e.printStackTrace();
+//        }
+//        if (file.exists()){
+//            System.out.println("File Exists: " + file.exists());
+//
+//            try {
+//                Scanner input = new Scanner(file);
+//                FileWriter fw = new FileWriter(fileWrite);
+//                while(input.hasNextLine()){
+//                    String[] names = input.nextLine().split(",");
+////                    System.out.printf("Course code: %-5s Course Name: %-14s Course Instructor: %s\n", names[0], names[1], names[2]);
+//                    String s = String.format("Course code: %-5s Course Name: %-14s Course Instructor: %s\n", names[0], names[1], names[2]);
+//                    fw.write(s);
+//                }
+//            } catch (FileNotFoundException e) {
+//                e.printStackTrace();
+//            }
+//        }
+
+        ArrayList<String> list = new ArrayList<String>();
+
+        list.add("hello");
+        list.add("world");
+        list.add("again");
 
 
+        System.out.println(list);
+        list.remove(2);
+        list.set(1, list.get(1).toUpperCase());
+        System.out.println(list);
 
 
 

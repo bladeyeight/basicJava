@@ -14,7 +14,6 @@ package com.teksystems;
     }
 
     class FireMonster extends Monster{
-        private String name;
 
         public FireMonster(String name) {
             super(name);
