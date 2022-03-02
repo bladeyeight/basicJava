@@ -4,10 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
@@ -160,13 +157,64 @@ public class Main {
 //        list.set(1, list.get(1).toUpperCase());
 //        System.out.println(list);
 
-        Map<Integer, String> myMap = new HashMap<Integer, String>();
-        myMap.put(101, "Java");
-        myMap.put(102, "CSS");
-        myMap.put(103, "HTML");
-        myMap.put(104, "Spring Boot");
+//        Map<Integer, String> myMap = new HashMap<Integer, String>();
+//        myMap.put(101, "Java");
+//        myMap.put(102, "CSS");
+//        myMap.put(103, "HTML");
+//        myMap.put(104, "Spring Boot");
+//
+//        System.out.println(myMap);
+//
+//        ArrayList<Integer> myList = new ArrayList();
+//        static int getSum(int m){
+//            int sum = 0;
+//            for (int x = 0; x < myList.size(); x++ ){
+//                sum =+ myList.get(x);
+//
+//            }
+//            return sum;
+//
+//        }
+//      int[] myArray = new int[] {4,8,12,16};
+//        List<String > ll = new LinkedList<String>();
+//        List<String> list = new LinkedList<String>(ll);
+//        System.out.println(list);
 
-        System.out.println(myMap);
+//        Queue<String> s  = new LinkedList<>();
+//        s.add("Jafer");
+//        s.add("Sam");
+//        s.add("Bob");
+//
+//        String ss = s.poll();
+//        System.out.println(ss);
+//        System.out.println(s);
+
+//        List<String> places = Arrays.asList("One", "Two", "Three");
+//        System.out.println(places);
+
+//        Map <Integer, String> map = new LinkedHashMap<Integer, String>();
+//        map.put(60, "Jafer");
+//        map.put(32, "Ralph");
+//        map.put(31, "Sam");
+//        System.out.println(map);
+//
+//        map.forEach((k,v) -> System.out.printf("k: %-3d v: %s\n", k ,v));
+//
+//        for (Integer s: map.keySet()){
+//            System.out.printf("k: %d v: %s \n" , s, map.get(s));
+//        }
+
+//        Scanner s = new Scanner(System.in);
+//        System.out.print("Enter any number: ");
+//        int p = s.nextInt();
+//        System.out.println("Your number is " + p);
+
+
+
+
+
+
+
 
 
 
