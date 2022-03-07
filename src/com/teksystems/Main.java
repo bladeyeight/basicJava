@@ -209,7 +209,23 @@ public class Main {
 //        int p = s.nextInt();
 //        System.out.println("Your number is " + p);
 
+//            StringBuffer stringBuffer = new StringBuffer("hello world");
+//            stringBuffer.append(", again");
+//            stringBuffer.insert(6, ":");
+//            System.out.println(stringBuffer);
 
+//            StringJoiner stringJoiner = new StringJoiner(":", "{", "}");
+//
+//            stringJoiner.add("jafer");
+//            stringJoiner.add("teacher");
+//            stringJoiner.add("java 101");
+//            System.out.println(stringJoiner);
+
+            ArrayList<String> list = new ArrayList<String>(Arrays.asList("jafer", "n", "alhaboubi"));
+            list.stream()
+                    .filter(s -> s.matches("^[j].*"))
+                    .sorted()
+                    .forEach((names) -> System.out.println(names.toUpperCase()));
 
 
 

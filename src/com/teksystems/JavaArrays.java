@@ -7,7 +7,7 @@
 package com.teksystems;
 import java.util.*;
 
-public class Arrays {
+ public class JavaArrays {
     public static void main(String[] args) {
 //      Question 1
       int[] xArray = new int[3];
